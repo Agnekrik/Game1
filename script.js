@@ -57,6 +57,6 @@ function isWinner(selection, opponentSelection) {
 }
 
 function randomSelection() {
-  const randomIndex = Math.floor(Math.random() * SELECTIONS.length)
+  const randomIndex = Math.floor(Math.random() * SELECTIONS.length) //(0;1)*3--> floor--> 0,1,2
   return SELECTIONS[randomIndex]
 }
